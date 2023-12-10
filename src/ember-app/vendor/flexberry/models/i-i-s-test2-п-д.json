@@ -1,0 +1,99 @@
+﻿{
+  "name": "IISTest2ПД",
+  "modelName": "i-i-s-test2-п-д",
+  "className": "ПД",
+  "nameSpace": "IIS.Test2",
+  "parentModelName": "i-i-s-test2-сотрудники",
+  "parentClassName": "Сотрудники",
+  "attrs": [
+    {
+      "name": "номер",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "серия",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ПДE",
+      "modelName": "i-i-s-test2-п-д",
+      "attrs": [
+        {
+          "name": "серия",
+          "caption": "Серия",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "iD",
+          "caption": "ID",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "имя",
+          "caption": "Имя",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ПДL",
+      "modelName": "i-i-s-test2-п-д",
+      "attrs": [
+        {
+          "name": "серия",
+          "caption": "Серия",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "iD",
+          "caption": "ID",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "имя",
+          "caption": "Имя",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
